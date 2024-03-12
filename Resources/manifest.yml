@@ -1,5 +1,6 @@
-﻿defaultWindowTitle: Space Station 14
-windowIconSet: /Textures/Logo/icon
-splashLogo: /Textures/Logo/logo.png
+﻿defaultWindowTitle: Space Station 14 - RCR
+windowIconSet: /Textures/Logo/icon-rcr
+splashLogo: /Textures/Logo/logo-rcr.png
+multiWindow: true
 
 # PJB PLEASE
