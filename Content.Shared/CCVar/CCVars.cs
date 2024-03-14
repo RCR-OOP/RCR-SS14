@@ -141,7 +141,7 @@ namespace Content.Shared.CCVar
         ///     Controls the duration of the lobby timer in seconds. Defaults to 2 minutes and 30 seconds.
         /// </summary>
         public static readonly CVarDef<int>
-            GameLobbyDuration = CVarDef.Create("game.lobbyduration", 150, CVar.ARCHIVE);
+            GameLobbyDuration = CVarDef.Create("game.lobbyduration", 120, CVar.ARCHIVE);
 
         /// <summary>
         ///     Controls if players can latejoin at all.
@@ -1291,7 +1291,7 @@ namespace Content.Shared.CCVar
         ///     See vote.enabled, but specific to preset votes
         /// </summary>
         public static readonly CVarDef<bool> VotePresetEnabled =
-            CVarDef.Create("vote.preset_enabled", true, CVar.SERVERONLY);
+            CVarDef.Create("vote.preset_enabled", false, CVar.SERVERONLY);
 
         /// <summary>
         ///     See vote.enabled, but specific to map votes
