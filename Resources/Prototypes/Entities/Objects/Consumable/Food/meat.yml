@@ -361,7 +361,7 @@
   name: dragon flesh
   parent: FoodMeatBase
   id: FoodMeatDragon
-  description: The dense meat of the space-era apex predator is oozing with it's mythical ichor. Ironically, best eaten raw.
+  description: The dense meat of the space-era apex predator is oozing with its mythical ichor. Ironically, best eaten raw.
   components:
   - type: Tag
     tags:
@@ -400,6 +400,9 @@
           Quantity: 3
         - ReagentId: Fat
           Quantity: 3
+  - type: SliceableFood
+    count: 3
+    slice: FoodMeatCutlet
 
 - type: entity
   name: raw lizard meat
@@ -444,6 +447,8 @@
     tags:
     - Raw
     - Meat
+    - Trash
+    - Recyclable
   - type: Sprite
     state: rotten
   - type: SolutionContainerManager
@@ -596,6 +601,8 @@
   - type: SliceableFood
     count: 3
     slice: FoodMeatTomatoCutlet
+  - type: StaticPrice
+    price: 100
 
 - type: entity
   name: salami
@@ -715,6 +722,7 @@
     tags:
     - Cooked
     - Meat
+    - Steak
   - type: Sprite
     layers:
     - state: plain-cooked
@@ -774,6 +782,7 @@
     tags:
     - Cooked
     - Meat
+    - Steak
   - type: Sprite
     layers:
     - state: product-cooked
@@ -942,6 +951,7 @@
     tags:
     - Cooked
     - Meat
+    - Steak
   - type: Sprite
     layers:
     - state: goliath-cooked
@@ -971,6 +981,7 @@
     tags:
     - Cooked
     - Meat
+    - Steak
   - type: Sprite
     layers:
     - state: rouny-cooked
@@ -996,6 +1007,7 @@
     tags:
     - Cooked
     - Meat
+    - Steak
   - type: Sprite
     layers:
     - state: lizard-cooked
@@ -1262,6 +1274,8 @@
   - type: Sprite
     state: salami-slice
     color: red
+  - type: StaticPrice
+    price: 30
 
 - type: entity
   name: salami slice
