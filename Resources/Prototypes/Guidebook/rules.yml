@@ -433,3 +433,11 @@
   ruleEntry: true
   priority: 100
   text: "/ServerInfo/Guidebook/ServerRules/BanDurations.xml"
+
+
+- type: guideEntry
+  id: RCRRulesset
+  name: guide-entry-rcr-main-rules
+  ruleEntry: true
+  priority: 228
+  text: "/ServerInfo/Guidebook/ServerRules/MR.xml"
