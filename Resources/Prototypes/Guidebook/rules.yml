@@ -436,7 +436,7 @@
 
 - type: guideEntry
   id: RCRRulesset
-  name: "Правила сервера RCR"
+  name: guide-entry-rcr-rules
   ruleEntry: true
   priority: 228
   text: "/ServerInfo/Guidebook/ServerRules/MR.xml"
