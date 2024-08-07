@@ -142,12 +142,7 @@
     sprite: Objects/Misc/id_cards.rsi
     state: default
 
-- type: stealTargetGroup
-  id: Cannabis
-  name: cannabis
-  sprite:
-    sprite: Objects/Specific/Hydroponics/cannabis.rsi
-    state: produce
+
 
 - type: stealTargetGroup
   id: LAMP
@@ -352,8 +347,8 @@
     state: ian
 
 - type: stealTargetGroup
-  id: AnimalBingus
-  name: Bingus
+  id: AnimalNamedCat
+  name: CMO's Cat
   sprite:
     sprite: Mobs/Pets/bingus.rsi
     state: bingus

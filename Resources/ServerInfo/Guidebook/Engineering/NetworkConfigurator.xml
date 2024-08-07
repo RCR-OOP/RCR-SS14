@@ -2,7 +2,7 @@
 # Конфигуратор сетей
 Конфигуратор сетей позволяет вам управлять списками устройств и связывать устройства друг с другом.
 <Box>
-  <GuideEntityEmbed Entity="NetworkConfigurator"/>
+  <GuideEntityEmbed Entity="NetworkConfigurator" Caption="Конфигуратор сетей"/>
 </Box>
 Конфигуратор имеет два режима: Список и Связь. Вы можете нажать [color=gray]Alt+Z[/color] или [color=gray]Alt+Y[/color], чтобы переключаться между ними.
 

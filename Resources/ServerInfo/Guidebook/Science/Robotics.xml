@@ -4,7 +4,7 @@
 
   ## Фабрикатор экзокостюмов
 <Box>
-<GuideEntityEmbed Entity="ExosuitFabricator" Caption="фабрикатор экзокостюмов"/>
+<GuideEntityEmbed Entity="ExosuitFabricator" Caption="Фабрикатор экзокостюмов"/>
 </Box>
   [color=#a4885c]Фабрикатор экзокостюмов[/color] это устройство, на котором вы можете распечатать большинство частей для своих творений, такие как:
   - [textlink="Кибернетические" link="Cyborgs"] конечности

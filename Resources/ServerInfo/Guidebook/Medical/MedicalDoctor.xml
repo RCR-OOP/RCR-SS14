@@ -9,7 +9,7 @@
 
 По возможности, лучше использовать анализатор, так как в нём отображается больше инофрмации, чем при визуальном осмотре.
 <Box>
-<GuideEntityEmbed Entity="SignExamroom" Caption="осмотрите пациента"/>
+<GuideEntityEmbed Entity="SignExamroom" Caption="Осмотрите пациента"/>
 <GuideEntityEmbed Entity="MedicalPDA"/>
 <GuideEntityEmbed Entity="MedicalInternPDA" Caption="КПК интерна"/>
 <GuideEntityEmbed Entity="HandheldHealthAnalyzer"/>
@@ -32,10 +32,10 @@
 
 <Box>
 <GuideEntityEmbed Entity="MedkitFilled"/>
-<GuideEntityEmbed Entity="MedkitBruteFilled" Caption="аптечка для тупого урона"/>
-<GuideEntityEmbed Entity="MedkitRadiationFilled" Caption="аптечка для радиации"/>
-<GuideEntityEmbed Entity="MedkitBurnFilled" Caption="аптечка для ожогов"/>
-<GuideEntityEmbed Entity="MedkitToxinFilled" Caption="аптечка для токсины"/>
+<GuideEntityEmbed Entity="MedkitBruteFilled" Caption="Аптечка для тупого урона"/>
+<GuideEntityEmbed Entity="MedkitRadiationFilled" Caption="Аптечка для радиации"/>
+<GuideEntityEmbed Entity="MedkitBurnFilled" Caption="Аптечка для ожогов"/>
+<GuideEntityEmbed Entity="MedkitToxinFilled" Caption="Аптечка для токсины"/>
 </Box>
 
 <Box>

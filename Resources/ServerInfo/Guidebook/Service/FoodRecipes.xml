@@ -10,34 +10,34 @@
 
 - Тесто = 15 муки, 10 воды
 - Кукурузное тесто = 1 яйцо (6 ед.), 10 молока, 15 кукурузной муки
-- Tortila Dough = 15 Cornmeal, 10 Water
-- Тофу = 5 универсального фермента (Catalyst), 30 соевого молока
+- Тесто для тортильи = 15 кукурузной муки, 10 воды
+- Тофу = 5 универсального фермента (катализатор), 30 соевого молока
 - Тесто для пирога = 2 яйца (12 ед.), 15 муки, 5 столовой соли
 - Тесто для торта = 2 яйца(12 ед.), 15 муки, 5 сахара
 - Веганское тесто для торта = 15 соевого молока, 15 муки, 5 сахара
-- Масло = 30 молока, 5 столовой соли (Catalyst)
-- Головка сыра = 5 универсального фермента (Catalyst), 40 молока
-- Chèvre Log = 5 Enzyme (Catalyst), 10 Goat Milk
+- Масло = 30 молока, 5 столовой соли (катализатор)
+- Головка сыра = 5 универсального фермента (катализатор), 40 молока
+- Chèvre Log = 5 Enzyme (катализатор), 10 козьего молока
 - Фрикаделька = 1 яйцо (6 ед.), 5 муки, 5 непрожаренные животные протеины
-- Chocolate = 6 Cocoa Powder, 2 Milk, 2 Sugar
+- Шоколад = 6 какао-порошок, 2 молока, 2 сахара
 - Непрожаренные животные протеины: измельчить сырое мясо
 
 <Box>
-<GuideEntityEmbed Entity="FoodDough"/>
-<GuideEntityEmbed Entity="FoodDoughCornmeal"/>
-<GuideEntityEmbed Entity="FoodTofu"/>
-<GuideEntityEmbed Entity="FoodDoughPie"/>
-<GuideEntityEmbed Entity="FoodCakeBatter"/>
-<GuideEntityEmbed Entity="FoodDoughFlat"/>
-<GuideEntityEmbed Entity="FoodDoughTortilla"/>
+    <GuideEntityEmbed Entity="FoodDough"/>
+    <GuideEntityEmbed Entity="FoodDoughCornmeal"/>
+    <GuideEntityEmbed Entity="FoodTofu" Caption="Ух ебать, ТОФУ!!! ТОФУ БЛЯТЬ!!!"/>
+    <GuideEntityEmbed Entity="FoodDoughPie"/>
+    <GuideEntityEmbed Entity="FoodCakeBatter"/>
+    <GuideEntityEmbed Entity="FoodDoughFlat"/>
+    <GuideEntityEmbed Entity="FoodDoughTortilla"/>
 </Box>
 
 <Box>
-<GuideEntityEmbed Entity="FoodButter"/>
-<GuideEntityEmbed Entity="FoodMeatMeatball"/>
-<GuideEntityEmbed Entity="FoodCheese"/>
-<GuideEntityEmbed Entity="FoodChevre"/>
-<GuideEntityEmbed Entity="FoodSnackChocolateBar"/>
+    <GuideEntityEmbed Entity="FoodButter"/>
+    <GuideEntityEmbed Entity="FoodMeatMeatball"/>
+    <GuideEntityEmbed Entity="FoodCheese"/>
+    <GuideEntityEmbed Entity="FoodChevre"/>
+    <GuideEntityEmbed Entity="FoodSnackChocolateBar"/>
 </Box>
 
 ## Второстепенные продукты
@@ -47,9 +47,9 @@
 - Сырая котлета: нарезать сырое мясо
 - Сырный ломтик: нарезать головку сыра
 - Плоское тесто: раскатайте тесто скалкой либо другим крыглым объектом (огнетушитель, жестяная банка, бутылка).
-- Tortilla Dough Slice: cut Tortilla Dough
-- Flat Tortilla Dough: Use a rolling pin or a round object (fire extinguisher, soda can, bottle) on Tortilla Dough Slice
-- Taco Shell: Microwave Flat Tortilla Dough for 5 Seconds
+- Ломтик теста для тортильи: нарезать Теста для тортильи
+- Плоское тесто для тортильи: Используйте скалку или круглый предмет (огнетушитель, банку из-под содовой, бутылку) для нарезки теста для тортильи
+- Оболочка для тако: Разогрейте плоское тесто для тортильи в микроволновке в течение 5 секунд
 
 ## Примеры блюд
 
@@ -60,29 +60,29 @@
 - Маргарита: положить в микроволновку 1 плоское тесто, 1 сырный ломтик и 4 помидора на 30 секунд
 - Торт: 1 тесто для торта в микроволновку на 15 секунд
 - Яблочный пирог: 1 тесто для пирога, 3 яблока и 1 формочку для пирога на 15 секунд
-- Beef Taco: Microwave 1 Taco Shell, 1 Raw Meat Cutlet, 1 Cheese Wedge for 10 Seconds
-- Cuban Carp : Microwave 1 Dough, 1 Cheese Wedge, 1 Chili, 1 Carp Meat for 15 Seconds
-- Banana Cream Pie : Microwave 1 Pie Dough, 3 Bananas, and 1 Pie Tin for 15 Seconds
-- Carrot Fries : Microwave 1 Carrot, 15u Salt for 15 Seconds
-- Pancake : Microwave 5u Flour, 5u Milk, 1 Egg (6u) for 5 Seconds
+- Тако с говядиной: Разогрейте в микроволновке 1 форму для запекания тако, 1 котлету из сырого мяса, 1 дольку сыра в течение 10 секунд
+- Кубинский карп: Разогрейте в микроволновке 1 порцию теста, 1 дольку сыра, 1 Чили, 1 мясо карпа в течение 15 секунд
+- Пирог с банановым кремом: Разогрейте в микроволновке тесто для 1 пирога, 3 банана и 1 форму для выпечки в течение 15 секунд
+- Картофель фри из моркови: Разогрейте в микроволновке 1 морковь с 15 соли в течение 15 секунд
+- Блин: Разогрейте в микроволновке 5 муки, 5 молока и 1 яйцо (6) в течение 5 секунд
 
 <Box>
-<GuideEntityEmbed Entity="FoodBreadPlain"/>
-<GuideEntityEmbed Entity="FoodBurgerPlain"/>
-<GuideEntityEmbed Entity="FoodSoupTomato"/>
-<GuideEntityEmbed Entity="FoodSaladCitrus"/>
+    <GuideEntityEmbed Entity="FoodBreadPlain"/>
+    <GuideEntityEmbed Entity="FoodBurgerPlain"/>
+    <GuideEntityEmbed Entity="FoodSoupTomato"/>
+    <GuideEntityEmbed Entity="FoodSaladCitrus"/>
 </Box>
 <Box>
-<GuideEntityEmbed Entity="FoodPizzaMargherita"/>
-<GuideEntityEmbed Entity="FoodCakePlain"/>
-<GuideEntityEmbed Entity="FoodPieApple"/>
-<GuideEntityEmbed Entity="FoodTacoBeef"/>
+    <GuideEntityEmbed Entity="FoodPizzaMargherita"/>
+    <GuideEntityEmbed Entity="FoodCakePlain"/>
+    <GuideEntityEmbed Entity="FoodPieApple"/>
+    <GuideEntityEmbed Entity="FoodTacoBeef"/>
 </Box>
 <Box>
-<GuideEntityEmbed Entity="FoodMealCubancarp"/>
-<GuideEntityEmbed Entity="FoodPieBananaCream"/>
-<GuideEntityEmbed Entity="FoodMealFriesCarrot"/>
-<GuideEntityEmbed Entity="FoodBakedPancake"/>
+    <GuideEntityEmbed Entity="FoodMealCubancarp"/>
+    <GuideEntityEmbed Entity="FoodPieBananaCream"/>
+    <GuideEntityEmbed Entity="FoodMealFriesCarrot"/>
+    <GuideEntityEmbed Entity="FoodBakedPancake" Caption="То что нужно для покарения сердца демона!"/>
 </Box>
 
 </Document>

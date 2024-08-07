@@ -10,13 +10,13 @@
 Чтобы улучшить базовый шлюз до шлюза средней степени защиты, вам понадобятся следующие материалы:
 <Box HorizontalAlignment="Stretch">
 	<Box>
-		<GuideEntityEmbed Entity="SheetSteel" Caption="лист стали x2"/>
+		<GuideEntityEmbed Entity="SheetSteel" Caption="Лист стали x2"/>
 	</Box>
 	<Box>
-		<GuideEntityEmbed Entity="Screwdriver" Caption="отвёртка"/>
+		<GuideEntityEmbed Entity="Screwdriver" Caption="Отвёртка"/>
 	</Box>
 	<Box>
-		<GuideEntityEmbed Entity="Welder" Caption="сварочный аппарат"/>
+		<GuideEntityEmbed Entity="Welder" Caption="Сварочный аппарат"/>
 	</Box>
 </Box>
 
@@ -32,16 +32,16 @@
 Чтобы обновить базовый шлюз до шлюза с высокой степенью защиты, вам понадобятся следующие материалы:
 <Box HorizontalAlignment="Stretch">
 	<Box>
-		<GuideEntityEmbed Entity="SheetPlasteel" Caption="лист пластали x2"/>
+		<GuideEntityEmbed Entity="SheetPlasteel" Caption="Лист пластали x2"/>
 	</Box>
 	<Box>
-		<GuideEntityEmbed Entity="PartRodMetal" Caption="металлический стержень x2"/>
+		<GuideEntityEmbed Entity="PartRodMetal" Caption="Металлический стержень x2"/>
 	</Box>
 	<Box>
-		<GuideEntityEmbed Entity="Screwdriver" Caption="отвёртка"/>
+		<GuideEntityEmbed Entity="Screwdriver" Caption="Отвёртка"/>
 	</Box>
 	<Box>
-		<GuideEntityEmbed Entity="Welder" Caption="сварочный аппарат"/>
+		<GuideEntityEmbed Entity="Welder" Caption="Сварочный аппарат"/>
 	</Box>
 </Box>
 
@@ -58,13 +58,13 @@
 Чтобы переоборудовать шлюз высокой степени защиты в шлюз максимальной степени защиты, вам потребуются следующие материалы:
 <Box HorizontalAlignment="Stretch">
 	<Box>
-		<GuideEntityEmbed Entity="SheetPlasteel" Caption="лист пластали x2"/>
+		<GuideEntityEmbed Entity="SheetPlasteel" Caption="Лист пластали x2"/>
 	</Box>
 	<Box>
-		<GuideEntityEmbed Entity="Screwdriver" Caption="отвёртка"/>
+		<GuideEntityEmbed Entity="Screwdriver" Caption="Отвёртка"/>
 	</Box>
 	<Box>
-		<GuideEntityEmbed Entity="Welder" Caption="сварочный аппарат"/>
+		<GuideEntityEmbed Entity="Welder" Caption="Сварочный аппарат"/>
 	</Box>
 </Box>
 
